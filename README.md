@@ -22,6 +22,7 @@ The application follows the MVC (Model-View-Controller) pattern with GetX for st
 - **GetX**: State management, dependency injection
 - **HTTP**: API communication
 - **Intl**: Date formatting
+- **logger**: Debugging and logging
 
 ## API
 

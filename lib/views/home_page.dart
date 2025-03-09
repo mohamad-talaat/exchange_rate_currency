@@ -51,7 +51,8 @@ class HomePage extends StatelessWidget {
 
                 if (controller.exchangeRateRecords.isEmpty) {
                   return const Center(
-                    child: Text('No data available. Please search for exchange rates.'),
+                    child: Text(
+                        'No data available. Please search for exchange rates.'),
                   );
                 }
 
@@ -127,7 +128,8 @@ class HomePage extends StatelessWidget {
   }
 
   Widget _buildSearchButton() {
-    return SizedBox(
+    return Container(
+      color: Colors.blue.shade100,
       width: double.infinity,
       child: ElevatedButton(
         onPressed: controller.fetchExchangeRates,
